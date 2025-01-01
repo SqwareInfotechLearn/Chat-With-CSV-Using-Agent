@@ -27,13 +27,7 @@ git clone https://github.com/SqwareInfotechLearn/Chat-With-CSV-Using-Agent.git
 cd Chat-With-CSV-Using-Agent
 ```
 
-#### 2. Install Dependencies:
-Install the required Python libraries using `pip`:
-```bash
-pip install -r requirements.txt
-```
-
-#### 3. Set Up the Environment:
+#### 2. Set Up the Environment:
 Create a `.env` file in the root directory to store any necessary environment variables such as API keys (e.g., for Groq or any other service).
 
 Example `.env` file (adjust based on your actual API requirements):
@@ -41,10 +35,10 @@ Example `.env` file (adjust based on your actual API requirements):
 GROQ_API_KEY=your_api_key_here
 ```
 
-#### 4. Download the Dataset:
+#### 3. Download the Dataset:
 Ensure the **IMDB-Movie-Data.csv** file is placed in the project directory or modify the `local_csv_path` variable in the code to point to the correct file path.
 
-#### 5. Run the Streamlit App:
+#### 4. Run the Streamlit App:
 Start the app with Streamlit:
 ```bash
 streamlit run app.py
