@@ -18,7 +18,7 @@ This project leverages **Agentic AI**, **Phidata**, **Groq**, and **Streamlit** 
 
 #### Prerequisites:
 - Python 3.7+
-- A valid `.env` file with any required API keys (if applicable).
+- A valid `.env` file with any required API keys.
 - The **IMDB-Movie-Data.csv** file should be in the root directory of the project (or update the path in the code accordingly).
 
 #### 1. Clone the Repository:
